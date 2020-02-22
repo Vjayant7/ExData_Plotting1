@@ -1,6 +1,6 @@
 library("data.table")
 
-setwd("~/Desktop/Data science/Exploratory/First/ExData_Plotting1.txt")
+setwd("~/Desktop/Data science/Exploratory/First/ExData_Plotting1")
 
 powerDT <- data.table::fread(input = "household_power_consumption.txt"
                              , na.strings="?"
